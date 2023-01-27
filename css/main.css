@@ -1,0 +1,44 @@
+
+
+
+@font-face {
+    font-family: h1;
+    src: url(../font/AlegreyaSans-Light.ttf);
+}
+
+@font-face {
+    font-family: p;
+    src: url(../font/AlegreyaSans-Light.ttf);
+}
+
+@font-face {
+    font-family: span;
+    src: url(../font/CabinSketch-Regular.ttf);
+}
+
+@font-face {
+    font-family: li;
+    src: url(../font/CormorantUpright-Light.ttf);
+}
+
+@font-face {
+    font-family: a;
+    src: url(../font/CormorantUpright-Light.ttf);
+}
+
+p{
+  font-family: p;
+}
+a{
+    font-family: a;
+    font-weight: 900;
+}
+h1{
+    
+}
+.specialname{
+    font-family: span;
+}
+.specialname1{
+    font-family: h1;
+}

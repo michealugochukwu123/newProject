@@ -1,0 +1,255 @@
+nav {
+    height: fit-content;
+}
+
+.navdetail {
+    width: 100%;
+    height: 40px;
+    background: var(--back);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.phone i {
+    color: white;
+    color: var(--color);
+    font-size: 20px;
+}
+
+.phone p {
+    color: white;
+    margin-left: 8px;
+}
+
+.contact a,
+p {
+    margin: 5px;
+    color: var(--color);
+    font-family: a;
+    
+}
+
+.contact a {
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.contact div {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.contact div p {
+    font-size: 19px;
+    color: white;
+   
+}
+
+.contact div i {
+    color: var(--color);
+
+}
+
+.themainnav {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: var(--bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p {
+    font-size: 20px;
+}
+
+.menu {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.specialname {
+    font-size: 30px;
+    color: var(--color);
+    font-weight: bold;
+}
+
+.menu a i {
+    color: var(--bg);
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+.menu a p {
+    color: var(--back);
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-right: 6px;
+}
+
+.menu a :hover~p {
+    color: var(--color);
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: var(--bg);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn p {
+    color: white;
+    font-family: a;
+    font-weight: 100;
+}
+
+.toggel {
+    display: none;
+    margin-right: 20px;
+    font-size: 30px;
+    color: var(--color);
+}
+
+@media(max-width:870px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .menu {
+        margin-right: 0px;
+
+    }
+
+    .menu a i {
+        color: var(--bg);
+        margin-left: 6px;
+        font-size: 18px;
+    }
+
+    .menu a p {
+        color: var(--back);
+        font-size: 18px;
+        text-transform: capitalize;
+        margin-right: 6px;
+    }
+
+}
+
+@media(max-width:650px) {
+    .toggel {
+        display: flex;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:450px) {
+    .themainnav.active {
+        flex-direction: column;
+    }
+
+    .phone {
+        margin-left: 5px;
+
+    }
+
+    .contact {
+        margin-right: 5px;
+    }
+}
+
+@media(max-width:370px) {
+    .navdetail {
+        flex-direction: column;
+        height: fit-content;
+        padding: 5px 0px;
+    }
+}
+
+@media(max-width:260px) {
+    .contact {
+        margin-right: 0px;
+    }
+
+    .phone i {
+        font-size: 17px;
+    }
+
+    .phone p {
+        margin-left: 8px;
+    }
+
+    .contact a {
+        font-size: 17px;
+    }
+
+    .contact div p {
+        font-size: 19px;
+    }
+
+    .oval {
+        height: 50px;
+        width: 74px;
+        background-color: var(--bg);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .logo p {
+        font-size: 18px;
+    }
+
+
+}
